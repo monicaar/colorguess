@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>colorGuess</title>
+	<link rel="stylesheet" type="text/css" href="coloGuess.css">
+</head>
+<body>
+	<h1>RGB COLOR GAME</h1>
+	<div id ="container">
+
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	<script type="text/javascript" src="colorGuess.js"></script>
+</body>
+</html>
