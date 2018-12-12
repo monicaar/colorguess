@@ -5,7 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="coloGuess.css">
 </head>
 <body>
-	<h1>RGB COLOR GAME</h1>
+	<h1><span id="colorDisplay">RGB</span> COLOR GAME</h1>
+	<div></div>
+
+	<div>
+		<span id="message"></span>
+	</div>
+
 	<div id ="container">
 
 		<div class="square"></div>
