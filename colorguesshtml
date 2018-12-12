@@ -8,8 +8,11 @@
 	<h1><span id="colorDisplay">RGB</span> COLOR GAME</h1>
 	<div></div>
 
-	<div>
+	<div id="stripe">
+		<button id="reset">New colors</button>
 		<span id="message"></span>
+		
+		
 	</div>
 
 	<div id ="container">
