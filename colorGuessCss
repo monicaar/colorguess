@@ -1,5 +1,8 @@
 body{
 	background-color: #232323;
+	margin:0;
+	font-family: "Avenir";
+
 
 }
 .square{
@@ -8,19 +11,61 @@ body{
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
+	transition: all 0.9s;
+	border-radius: 12%;
+	-webkit-transition:background 0.9s;
+	-moz-transition: background 0.9s;
 	
 }
 
 h1{
+	font-size: 350%;
 	color: white;
+	text-align: center;
+	font-weight: normal;
+	background: steelblue;
+	margin:0;
+	text-transform: capitalize;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
 }
 
 #container{
 	max-width: 600px;
 	margin:0 auto;
 
+
 }
 #message{
-	color: white;
+	color: steelblue;
+	text-align: right;
 	
+}
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.selected{
+	background : blue;
+
+}
+button{
+	font-family: "Avenir";
+	border:none;
+	background:none;
+	text-transform: capitalize;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.9s;
+	-moz-transition: all 0.9s;
+}
+button:hover{
+	color: white;
+	background: steelblue;
 }
